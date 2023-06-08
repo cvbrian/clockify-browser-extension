@@ -47,7 +47,7 @@ clockifyButton.render(
 			boardName = $('.board-name h1').textContent,
 			description = kanban
 				? $('.pulse-page-name-wrapper div span').textContent
-				: $('.title-editable').textContent,
+				: $('.heading-component').textContent,
 			projectName = boardName.includes(':')
 				? boardName.split(':')[0]
 				: boardName,
